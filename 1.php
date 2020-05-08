@@ -5,7 +5,7 @@ echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("green"," [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("green"," [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
 echo color("green"," [♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
-echo color("white"," [♡] JANGAN LUPA FOLLOW IG GUE YA : @Randika02 \n");
+echo color("white"," [♡] JANGAN LUPA FOLLOW IG GUE YA : @nxxxxx \n");
 echo color("purple"," [♥] KALO GA NGAMBIL OTOMATIS GAGAL BERARTI \n");
 echo color("purple"," [♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
 echo color("purple"," [♥] BACA DOA DULU SEBELUM MULAI , OKAY?^.^ \n");
@@ -39,7 +39,7 @@ else
 		echo "\e[92m[🚫]        \e[91mMAMPOS GA PUNYA AKUNNYA 😆    \e[92m [🚫]\n";
 	        echo "\e[92m[🚫]              \e[91m⚠️ WARNING ⚠️           \e[92m [🚫]\n";
 		echo "\e[92m[🚫]           \e[91mSEGERA MINTA IZIN          \e[92m [🚫]\n";
-	        echo "\e[92m[🚫]          \e[91mTELEGRAM :@ANAKEMAK         \e[92m [🚫]\n";
+	        echo "\e[92m[🚫]          \e[91mTELEGRAM :@xnxnxnxn         \e[92m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
@@ -213,8 +213,8 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("red","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN MU = 020289 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
-         $data2 = '{"pin":"020289"}';
+         echo color("red","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN MU = 010101 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
+         $data2 = '{"pin":"010101"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
          $otpsetpin = trim(fgets(STDIN));
@@ -231,7 +231,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          echo color("red","-] OTP NYA SALAH");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
          echo color("yellow","!] INPUT ULANG \n");
-         goto otp;
+         goto ulang;
          }
          }else{
          echo color("red","-] NOMOR SUDAH TERDADTAR");
