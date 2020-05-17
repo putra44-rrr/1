@@ -110,7 +110,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo "\n".color("purple","⏳▶️ BENTAR YA , INI YG 10K");
         for($a=1;$a<=3;$a++){
         echo color("green",".");
-        sleep(20);
+        sleep(15);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANB"}');
         $message = fetch_value($code1,'"message":"','"');
