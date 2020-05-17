@@ -96,9 +96,9 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo "\n".color("purple","⏳▶️ BENTAR YA , INI YG V 15");
         for($a=1;$a<=3;$a++){ 
         echo color("green",".");
-        sleep(9);
+        sleep(15);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANA"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANFD"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'MANTULL , ISTRI TUA JOSS BRO')){
         echo "\n".color("purple","🔓▶️ Message: ".$message);
@@ -136,7 +136,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         sleep(10);
         }
         sleep(5);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANFD"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANA"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$messageboba09);
         sleep(2);
