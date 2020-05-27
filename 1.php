@@ -98,9 +98,9 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo color("green",".");
         sleep(15);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANFD"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
-        if(strpos($code1, 'MANTULL , ISTRI TUA JOSS BRO')){
+        if(strpos($code1, 'MANTULL , ISTRI TUA JOSS BRO')){20
         echo "\n".color("purple","🔓▶️ Message: ".$message);
         goto gocar;
         }else{
@@ -112,7 +112,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo color("green",".");
         sleep(15);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANB"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'INI JATAH ISTRI MUDAMU.')){
         echo "\n".color("purple","🔓▶️ Message: ".$message);
@@ -126,7 +126,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo color("green",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANA"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("purple","🔓▶️ Message: ".$message);
         echo "\n".color("green","🔐▶️ CLAIM LAGI YUK BUAT ISTRI ORANG ");
@@ -136,7 +136,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         sleep(10);
         }
         sleep(5);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHMAKANA"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520A"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$messageboba09);
         sleep(2);
