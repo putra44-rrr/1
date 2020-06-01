@@ -96,7 +96,7 @@ echo "\e[89m!! KALO GAK DAPET OTP ATAU SALAH NOMER , KLIK ENTER AJA BRO \n";
         echo "\n".color("purple","⏳▶️ BENTAR YA , INI YG V 15");
         for($a=1;$a<=3;$a++){ 
         echo color("green",".");
-        sleep(9);
+        sleep(20);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
